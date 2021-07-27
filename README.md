@@ -3,11 +3,11 @@
 ## Getting Started
 
 
-Prerequisites:
+## Prerequisites:
 Nodejs
 angularjs
 
-Setup:
+## Setup:
 
 After clonning the repository,
 
