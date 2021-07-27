@@ -4,7 +4,7 @@
 
 
 ## Prerequisites:
-Nodejs
+Nodejs,
 angularjs
 
 ## Setup:
@@ -27,5 +27,5 @@ Application will start on port 8001
 You can access app at 
 
 ```
-http://localhost:8004/app/#/multiply
+http://localhost:8001/app/#/multiply
 ```
