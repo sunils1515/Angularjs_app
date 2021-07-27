@@ -1,6 +1,6 @@
 angular.module('multiply.controllers', []).
 
-  /* Drivers controller */
+  /* multiply controller */
   controller('multiplyController', function($scope, ergastAPIservice) {
     
     //To get Values from api
