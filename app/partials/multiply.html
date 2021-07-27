@@ -1,0 +1,50 @@
+<!-- <input type="text" ng-model="nameFilter" placeholder="Search..."/>
+<table>
+<thead>
+  <tr><th colspan="4">Drivers Championship Standings</th></tr>
+</thead>
+<tbody>
+  <tr ng-repeat="driver in driversList | filter: searchFilter">
+    <td>{{$index + 1}}</td>
+    <td>
+      <img src="img/flags/{{driver.Driver.nationality}}.png" />
+      <a href="#/drivers/{{driver.Driver.driverId}}">
+	  	{{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
+	  </a>
+	</td>
+    <td>{{driver.Constructors[0].name}}</td>
+    <td>{{driver.points}}</td>
+  </tr>
+</tbody>
+</table> -->
+<h1>Multiply Numbers</h1>
+
+<div class="center">
+  <form name="mutiply">
+<div class="content">
+    <label >Enter input1 :</label><br /><br />
+    <input ng-keyup="disableprop=(secondNumber >=0 && firstNumber >= 0) ? false:true" class="wrap" ng-model="firstNumber" type="number" required>
+    <span ng-class="{'has-error': !firstNumber >= 0,'normal': firstNumber >= 0 }">Enter Valid input >=0</span>
+  </div>
+  <br />
+  <br>
+  <div class="content">
+    <label  >Enter input2 :</label><br /><br />
+    <input ng-keyup="disableprop=(secondNumber >=0 && firstNumber >= 0) ? false:true" class="wrap" ng-model="secondNumber" type="number" required>
+    <span ng-class="{'has-error': !secondNumber >=0,'normal': secondNumber >= 0 }">Enter Valid input >=0</span>
+  </div>
+  <br />
+
+  <br>
+  <br>
+
+  <button class="wrap res" ng-disabled="disableprop" ng-click="result=calc(firstNumber,secondNumber)">Result</button>
+  <br>
+  <br>Result Value: {{result}}
+</form>
+</div>
+
+
+<!-- netstat -ano | findstr :8080
+		
+		taskkill /PID 2556 /F -->
